@@ -93,7 +93,7 @@ a:active {
     text-align: center;
   }
 }
-.grid__widget {
+.grid__widget, .grid__widget--green {
   background-color: hsl(300deg, 100%, 30%);
   padding: 1rem;
 }
