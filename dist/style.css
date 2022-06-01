@@ -49,10 +49,6 @@ a:active {
   --text-color: hsl(0, 0%, 100%);
 }
 
-.grid__widget--green, .grid__widget--magenta {
-  padding: 1rem;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -97,9 +93,12 @@ a:active {
     text-align: center;
   }
 }
-.grid__widget--magenta {
+.grid__widget, .grid__widget.green, .grid__widget.magenta {
+  padding: 1rem;
+}
+.grid__widget.magenta {
   background-color: hsl(300deg, 100%, 30%);
 }
-.grid__widget--green {
+.grid__widget.green {
   background-color: hsl(120deg, 100%, 25%);
 }/*# sourceMappingURL=style.css.map */
